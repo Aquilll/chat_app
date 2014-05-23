@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Classroom Interaction Part2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="press_to_ask_doubt_">Press to ask doubt !!!</string>
+    <string name="type_your_doubt_here_">Type your doubt here &#8230;</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_confirmation">Confirmation</string>
+    <string name="are_you_sure_you_want_to_ask_this_doubt_">Are you sure you want to ask this doubt?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="subject">Subject</string>
+    <string name="title_activity_audio_doubt">AudioDoubt</string>
+    <string name="waiting_for_request_approval_">Waiting for request approval....</string>
+    <string name="cancel_request">Cancel request</string>
+    <string name="disconnect">Disconnect</string>
+
+</resources>
