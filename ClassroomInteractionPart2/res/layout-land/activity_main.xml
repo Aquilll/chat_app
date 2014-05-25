@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue" >
+
+    <EditText
+        android:id="@+id/text_doubt_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="154dp"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:minLines="4"
+        android:width="350dp" 
+        android:hint="@string/type_your_doubt_here_"
+        />
+
+    <ImageButton
+        android:id="@+id/audio_doubt_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/text_doubt_msg"
+        android:layout_marginLeft="90dp"
+        android:contentDescription="@string/press_to_ask_doubt_"
+        android:src="@drawable/speak" />
+
+    <Button
+        android:id="@+id/send_text_doubt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/audio_doubt_button"
+        android:layout_alignLeft="@+id/text_doubt_msg"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="132dp"
+        android:text="@string/submit" />
+
+    <EditText
+        android:id="@+id/doubt_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_doubt_msg"
+        android:layout_alignLeft="@+id/text_doubt_msg"
+        android:layout_marginBottom="32dp"
+        android:ellipsize="start"
+        android:ems="10"
+        android:width="350dp" 
+        android:gravity="center"
+        android:hint="@string/subject" />
+    <TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Serv Msg"
+     android:layout_above="@+id/serv_msg"
+        android:layout_alignRight="@+id/text_doubt_msg"
+    android:id="@+id/myTextView"
+/>
+    
+    
+</RelativeLayout>
